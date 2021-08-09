@@ -1,11 +1,10 @@
 import './App.css';
-import {ApiCall} from './Components/Main';
-
+import UserList from './Components/User';
 function App() {
   return (
     <div className="App">
-      <h1>Random User React</h1>
-      <ApiCall />
+      <h1>Random Users React</h1>
+      <UserList />
     </div>
   );
 }
